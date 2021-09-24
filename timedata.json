@@ -1,0 +1,54 @@
+{
+  "shift": {
+           "start": "2037-12-31T23:59:59",
+            "end": "2038-01-01T00:00:05"
+            },
+  "roboRate": {
+              "standard_day": {
+                              "slot1": {
+                                        "start": "00:00:02",
+                                        "end": "00:00:00",
+                                        "value": 20
+                                        },
+                              "slot2": {
+                                        "start": "00:00:00",
+                                        "end": "00:00:01",
+                                        "value": 25
+                                        },
+                              "slot3": {
+                                        "start": "00:00:01",
+                                        "end": "00:00:02",
+                                        "value": 25
+                                        }                                    
+                              },  
+              "extra_day": {
+                            "slot1": {
+                                      "start": "07:00:00",
+                                      "end": "23:00:00",
+                                      "value": 30
+                                      },
+                            "slot2": {
+                                      "start": "23:00:01",
+                                      "end": "01:00:00",
+                                      "value": 35
+                                      },
+                            "slot3": {
+                                      "start": "01:00:00",
+                                      "end": "07:00:00",
+                                      "value": 35
+                                      }
+                            }
+              },
+  "break_duration": {
+                    "seconds": 1,
+                    "days": 0
+                    },
+  "maximum_working_time": {
+                          "seconds": 3,
+                          "days": 0
+                          },
+  "timewidth": {
+                "seconds": 2,
+                "days": 0
+              }
+}
